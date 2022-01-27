@@ -1,0 +1,248 @@
+/* ------------------------------------ */
+/* -------------- HEADER -------------- */
+/* ------------------------------------ */
+
+.App-header {
+    background-color: var(--color-header);
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    color: var(--color-text);
+    padding: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* si le header est en small */
+.App-header.small {
+    padding: 0px;
+}
+
+.App-logo.small {
+    height: 12vmin;
+    margin: 0%;
+}
+
+.App-link {
+    color: var(--color-text-bis);
+}
+
+.App-header-title {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: calc(10px + 2vmin);
+    font-weight: bold;
+    color: var(--color-text);
+    padding-right: 20%;
+}
+.App-header-title.small {
+    font-weight: normal;
+}
+
+/* ------- list menu ------- */
+.App-header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.App-header-menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 5em;
+}
+
+.App-header-small
+{
+    display: none;
+}
+
+.App-header-content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* ---------- screen scale ---------- */
+@media only screen and (max-width: 840px) {
+    .App-header-menu {
+        display: none;
+    }
+    .App-header-small {
+        display: flex;
+        right: 15px;
+        margin: 4vmax;
+        margin: 0;
+        padding: 0;
+        position: absolute; 
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+/*@media only screen and (max-width: 740px) {
+    .App-header-title {
+        padding-right: 30%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .App-header-title {
+        padding-right: 20%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .App-header-title {
+        padding-right: 10%;
+    }
+}
+
+/* -------------- menu actif -------------- */
+/* TOFIX: list menu place */
+.App-header.active
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+@keyframes down {
+    0% {
+        opacity: 0;
+        transform: rotateX(70deg);
+        transform-origin: top;
+    }
+    100% {
+        opacity: 1;
+        transform: rotateX(0deg);
+        transform-origin: top;
+    }
+}
+@keyframes up {
+    0% {
+        opacity: 1;
+        transform: rotateX(0deg);
+        transform-origin: top;
+    }
+    100% {
+        opacity: 0;
+        transform: rotateX(70deg);
+        transform-origin: top;
+    }
+}
+.App-header.active .App-header-menu
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10vmax;
+    align-items: center;
+    padding-bottom: 0;
+    list-style: none;
+    animation: down 1s ease 0s 1 normal forwards;
+}
+
+.App-header.active .App-header-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 0;
+    padding-bottom: 0;
+    list-style: none;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+
+.App-header.active .App-header-title
+{
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: baseline;
+    margin: 0;
+    padding-top: calc(2px + 1vmin);
+}
+
+.App-header.active .App-header-list
+{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    padding: 0;
+    margin: 10px;
+    list-style: none;
+    align-items: center;
+}
+
+.App-header.active .App-header-small
+{
+    top: calc(4px + 5vmin);
+}
+
+
+
+/* ------------ Footer ---------------*/
+/* faire une transition entre les pages en vague */
+.App-footer-copyright
+{
+    background-color: var(--color-footer);
+    color: var(--color-text);
+    border: solid 1px var(--color-background);
+    border-radius: 90px 45px 0 0;
+    padding: 0.1em;
+    margin-top: em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(0px + 2vmin);  
+}
+
+.App-footer-name
+{
+    border-bottom: 1px solid var(--color-text-bis);
+    padding: 0em;
+    margin: 0em;
+}
+
+.App-footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 0.2em;
+    margin: 0;
+    list-style: none;
+}
+
+.App-footer-menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: calc(4px + 1vmin);
+    padding: 5em;
+}

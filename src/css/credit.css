@@ -1,0 +1,36 @@
+.App-credits
+{
+    background-color: var(--color-background);
+    color: var(--color-text);
+    padding: var(--padding-small);
+    display: flex;
+}
+
+.App-credits-name
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1em;
+}
+
+
+.App-credit-logo {
+    height: 32vmin;
+    margin: 1%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-credit-logo.react {
+        animation: App-logo-spin infinite 10s linear;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .App-credits {
+        /* les mettre en colone */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
