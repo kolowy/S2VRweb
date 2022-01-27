@@ -97,21 +97,6 @@
         transform: translateY(-50%);
     }
 }
-/*@media only screen and (max-width: 740px) {
-    .App-header-title {
-        padding-right: 30%;
-    }
-}
-@media only screen and (max-width: 500px) {
-    .App-header-title {
-        padding-right: 20%;
-    }
-}
-@media only screen and (max-width: 300px) {
-    .App-header-title {
-        padding-right: 10%;
-    }
-}
 
 /* -------------- menu actif -------------- */
 /* TOFIX: list menu place */
@@ -194,7 +179,12 @@
 
 .App-header.active .App-header-small
 {
-    top: calc(4px + 5vmin);
+    top: 7.5vmin;
+}
+
+.App-header.active .App-header-title
+{
+    display: none;
 }
 
 
