@@ -13,7 +13,6 @@
     z-index: 1;
 }
 
-/* si le header est en small */
 .App-header.small {
     padding: 0px;
 }
@@ -155,7 +154,7 @@
     list-style: none;
     animation: down 1s ease 0s 1 normal forwards;
 }
-/* a changer */
+
 .App-header.active .App-header-content
 {
     display: flex;
@@ -173,7 +172,6 @@
 .App-header.active .App-header-title
 {
     display: flex;
-    /*flex-direction: column;*/
     justify-content: center;
     align-items: baseline;
     margin: 0;
@@ -195,18 +193,22 @@
 {
     top: 7.5vmin;
 }
-
+.App-header.small.active .App-header-small
+{
+    top: 6vmin;
+}
 .App-header.active .App-header-title
 {
     display: none;
 }
 
 
-
 /* ------------ Footer ---------------*/
 .App-footer {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 .App-footer-copyright
 {
