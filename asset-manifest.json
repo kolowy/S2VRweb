@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/S2VRweb/static/css/main.26f5e571.css",
-    "main.js": "/S2VRweb/static/js/main.23565d28.js",
+    "main.css": "/S2VRweb/static/css/main.82176186.css",
+    "main.js": "/S2VRweb/static/js/main.90246baf.js",
     "static/media/patate.png": "/S2VRweb/static/media/patate.ba9082536966e1cc84c1.png",
     "static/media/logo.svg": "/S2VRweb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/S2VRweb/index.html",
-    "main.26f5e571.css.map": "/S2VRweb/static/css/main.26f5e571.css.map",
-    "main.23565d28.js.map": "/S2VRweb/static/js/main.23565d28.js.map"
+    "main.82176186.css.map": "/S2VRweb/static/css/main.82176186.css.map",
+    "main.90246baf.js.map": "/S2VRweb/static/js/main.90246baf.js.map"
   },
   "entrypoints": [
-    "static/css/main.26f5e571.css",
-    "static/js/main.23565d28.js"
+    "static/css/main.82176186.css",
+    "static/js/main.90246baf.js"
   ]
 }
