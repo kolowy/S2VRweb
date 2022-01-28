@@ -33,12 +33,6 @@ class Header extends React.Component {
         const header = document.querySelector('.App-header');
         if (header.classList.contains('active')) {
             header.classList.remove('active');
-            /* add un tag et l'enlever 1s après */
-            header.classList.add('disactive');
-            setTimeout(() => {
-                /* coté css a set */ 
-                header.classList.remove('disactive');
-            }, 1000);
         } else {
             header.classList.add('active')
         }

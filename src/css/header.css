@@ -100,8 +100,21 @@
 
 /* -------------- menu actif -------------- */
 /* TOFIX: list menu place */
+@keyframes down-header {
+    0% {
+        width: 100%;
+        height: 10%;
+        transform-origin: top;
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+        transform-origin: top;
+    }
+}
 .App-header.active
 {
+    animation: down-header 0.5s ease-in-out;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -136,13 +149,13 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 10vmax;
+    margin-top: 20vmin;
     align-items: center;
     padding-bottom: 0;
     list-style: none;
     animation: down 1s ease 0s 1 normal forwards;
 }
-
+/* a changer */
 .App-header.active .App-header-content
 {
     display: flex;
@@ -152,8 +165,9 @@
     margin-top: 0;
     padding-bottom: 0;
     list-style: none;
-    animation: myAnim 1s ease 0s 1 normal forwards;
+    animation: down 1s ease 0s 1 normal forwards;
 }
+
 
 
 .App-header.active .App-header-title
@@ -190,21 +204,21 @@
 
 
 /* ------------ Footer ---------------*/
-/* faire une transition entre les pages en vague */
+.App-footer {
+    margin: 0;
+    padding: 0;
+}
 .App-footer-copyright
 {
     background-color: var(--color-footer);
     color: var(--color-text);
-    border: solid 1px var(--color-background);
-    border-radius: 90px 45px 0 0;
-    padding: 0.1em;
-    margin-top: em;
+    margin-top: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: calc(0px + 2vmin);  
+    font-size: calc(0px + 2vmin);
 }
 
 .App-footer-name
