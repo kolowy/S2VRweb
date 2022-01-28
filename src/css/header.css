@@ -220,7 +220,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: calc(0px + 2vmin);
+    font-size: calc(10px + 2vmin);
+
+}
+
+.App-footer p
+{
+    margin: 2vmin;
+    padding: 0;
+    font-size: calc(10px + 2vmin);
 }
 
 .App-footer-name
