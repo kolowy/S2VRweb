@@ -1,10 +1,12 @@
 :root
 {
   --color-background: #4C566A;
+  --color-background-bis: #434C5E;
   --color-header: #2E3440;
-  --color-text: rgb(236, 239, 244);
-  --color-text-bis: rgb(216, 222, 233);
-  --color-footer: #3B4252;
+  --color-text: #eceff4;
+  --color-text-bis: #d8dee9;
+
+  --color-footer: #2E3440;
 }
 
 .App {
@@ -42,10 +44,10 @@ div
 
 
 /* -------------- BODY -------------- */
-
 .App-body {
+  margin-top: 14vmin;
+  padding-top: 4vmin;
   background-color: var(--color-background);
-  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,6 +55,12 @@ div
   font-size: calc(10px + 2vmin);
   color: var(--color-text);
 }
+
+.App-footer
+{
+  background-color: var(--color-background);
+}
+
 
 p {
   padding: 0.25em 1em;
@@ -87,11 +95,10 @@ button {
   border-radius: 0.25em;
   cursor: pointer;
   outline: none;
-  box-shadow: 0 0 0 1px #4C566A;
-  transition:box-shadow 0.2s;
+  transition:font-size 0.2s;
 }
 button:hover {
-  box-shadow: 0 0 0 4px #2E3440;
+  font-size: 1.6em;
 }
 
 /* ------------ page link ---------------*/

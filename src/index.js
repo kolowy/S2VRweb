@@ -14,9 +14,9 @@ const routing = (
       <Header/>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/S2VRweb" element={<App />} />
         <Route path="/Credit" element={<Credit />} />
         <Route path="*" element={<NoFound />} />
-
       </Routes>
       <Footer className='App-footer' />
     </div>

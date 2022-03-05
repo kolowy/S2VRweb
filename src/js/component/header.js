@@ -4,12 +4,8 @@ import '../../css/header.css';
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-/* faire une fonction qui au scroll change la taille du header */
-
 
 class Header extends React.Component {
-        /* faire une fonction qui au scroll change la taille du header */ 
-          // The scroll listener
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
     }
