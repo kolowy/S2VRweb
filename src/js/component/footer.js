@@ -17,22 +17,11 @@ class Footer extends Component {
                 <div className='App-footer-copyright'> 
                     <div className='App-footer-name'>
                         <p>Made with <b>&hearts;</b> by hand</p>
-                        <p><b>Not at all</b> powered by WordPress</p>
-                        <p>Source code on <b>GitHub</b></p>
-                    </div>
-                    <div className='App-footer-name'>
-                        <p>All rights reserved</p>
-                        <p>Kolowy ‒ Paul Dufour ‒  © 2022</p>
-                    </div>
-                    <div>
-                        <ul className='App-footer-menu'>
-                            <li className='App-footer-list'>
-                                <Link to="/">Home</Link>
-                            </li>
-                            <li className='App-footer-list'>
-                                <Link to="/credit">Credit</Link>
-                            </li>
-                        </ul>
+                        <p>Made by Paul Dufour ‒ All rights reserved © 2022</p>
+                        <div className='App-footer-menu'>
+                                <Link to="/"><i class="fas fa-home"></i> Home</Link>
+                                <Link to="/credit"><i class="fas fa-address-book"></i> Contacts</Link>
+                        </div>
                     </div>
                 </div>
             </footer>
