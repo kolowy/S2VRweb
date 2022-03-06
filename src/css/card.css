@@ -1,0 +1,53 @@
+.card-body
+{
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    margin: 2em;
+    list-style: none;
+    animation: down 1s ease 0s 1 normal forwards;
+    background-color: var(--color-background-bis);
+    border-radius: 1em;
+    text-align: left;
+}
+
+.card-body-img
+{
+    object-fit: fill;
+    object-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    border-radius: 1em;
+    margin: 0.5em;
+}
+
+.card-body-title
+{
+    font-size: calc(3vmax);
+}
+
+.card-body-content-title
+{
+    font-size: calc(2vmin);
+    font-style: italic;
+    color: var(--color-text-bis);
+}
+
+
+.card-body-content-description
+{
+    margin-top: 0.5em;
+    font-size: calc(2.3vmin);
+}
+
+/* ------------ Screen scale ---------------*/
+
+@media screen and (max-width: 800px)
+{
+    .card-body-img
+    {
+        height: 100px;
+    }
+}

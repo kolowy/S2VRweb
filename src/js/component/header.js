@@ -52,6 +52,9 @@ class Header extends React.Component {
                             <Link to="/" onClick={this.closeMenu}><i class="fas fa-home"></i> Home</Link>
                         </li>
                         <li className='App-header-list'>
+                            <Link to="/Author" onClick={this.closeMenu}><i class="fas fa-user"></i> About Us</Link>
+                        </li>
+                        <li className='App-header-list'>
                             <Link to="/credit" onClick={this.closeMenu}><i class="fas fa-address-book"></i> Credit</Link>
                         </li>
                     </ul>

@@ -5,6 +5,7 @@ import { Route, Routes, BrowserRouter as Router } from 'react-router-dom'
 import App from './js/App'
 import Header from './js/component/header'
 import Footer from './js/component/footer';
+import Author from './js/pages/Author'
 import Credit from './js/pages/credit';
 import NoFound from './js/pages/NoFound';
 
@@ -15,6 +16,7 @@ const routing = (
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/S2VRweb" element={<App />} />
+        <Route path='/Author' element={<Author />} />
         <Route path="/Credit" element={<Credit />} />
         <Route path="*" element={<NoFound />} />
       </Routes>
