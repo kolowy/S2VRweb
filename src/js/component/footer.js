@@ -29,13 +29,13 @@ class Footer extends Component {
                                 theme={nord}
                                 codeBlock
                             />
-                    
+                        </div>
+                    </div>
                             <div className='App-footer-menu'>
                                     <Link to="/"><i class="fas fa-home"></i> Home</Link>
                                     <Link to="/Author"><i class="fas fa-user"></i> About Us</Link>
                                     <Link to="/credit"><i class="fas fa-address-book"></i> Contacts</Link>
-                            </div>
-                        </div>
+                            
                     </div>
                 </div>
             </footer>
