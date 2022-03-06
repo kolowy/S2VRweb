@@ -1,4 +1,4 @@
-import logo from '../../images/patate.png';
+import logo from '../../images/patateLogo.png';
 import '../../css/App.css';
 import '../../css/header.css';
 import React from 'react'

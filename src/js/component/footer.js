@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
+import { CodeBlock, dracula } from "react-code-blocks";
 
 
 class Footer extends Component {
@@ -14,13 +15,26 @@ class Footer extends Component {
                     <path d="M0 571L18.8 572.2C37.7 573.3 75.3 575.7 112.8 577C150.3 578.3 187.7 578.7 225.2 571.8C262.7 565 300.3 551 337.8 541.7C375.3 532.3 412.7 527.7 450.2 534.3C487.7 541 525.3 559 562.8 566.8C600.3 574.7 637.7 572.3 675.2 569.3C712.7 566.3 750.3 562.7 787.8 558.2C825.3 553.7 862.7 548.3 881.3 545.7L900 543L900 601L881.3 601C862.7 601 825.3 601 787.8 601C750.3 601 712.7 601 675.2 601C637.7 601 600.3 601 562.8 601C525.3 601 487.7 601 450.2 601C412.7 601 375.3 601 337.8 601C300.3 601 262.7 601 225.2 601C187.7 601 150.3 601 112.8 601C75.3 601 37.7 601 18.8 601L0 601Z" fill="#2e3440"></path>
                 </svg>
 
-                <div className='App-footer-copyright'> 
+                <div className='App-footer-copyright'>
                     <div className='App-footer-name'>
                         <p>Made with <b>&hearts;</b> by hand</p>
-                        <p>Made by Paul Dufour ‒ All rights reserved © 2022</p>
-                        <div className='App-footer-menu'>
-                                <Link to="/"><i class="fas fa-home"></i> Home</Link>
-                                <Link to="/credit"><i class="fas fa-address-book"></i> Contacts</Link>
+                        <div className="codeBlock" >
+                            < CodeBlock
+                                language="c" 
+                                text={`public static void Footer(){
+    Author author = new Author("Paul Dufour");
+    author.setName("Paul Dufour");
+    author.setCopyright("© 2020");
+    
+}`}
+                                theme={dracula}
+                                codeBlock
+                            />
+                    
+                            <div className='App-footer-menu'>
+                                    <Link to="/"><i class="fas fa-home"></i> Home</Link>
+                                    <Link to="/credit"><i class="fas fa-address-book"></i> Contacts</Link>
+                            </div>
                         </div>
                     </div>
                 </div>

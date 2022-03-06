@@ -19,7 +19,7 @@
 }
 
 .App-logo.small {
-    height: 12vmin;
+    transform: scale(0.7);
     margin: 0%;
 }
 
@@ -80,6 +80,13 @@
     list-style: none;
 }
 
+.App-logo {
+  height: 13vmin;
+  pointer-events: none;
+  margin: 1%;
+  /*border-radius: 45%;*/
+}
+
 /* ---------- screen scale ---------- */
 @media only screen and (max-width: 840px) {
     .App-header-menu {
@@ -95,7 +102,7 @@
         right: 15px;
         top: 50%;
         transform: translateY(-50%);
-    }
+    } 
 }
 
 /* -------------- menu actif -------------- */
@@ -167,7 +174,6 @@
     list-style: none;
     animation: down 1s ease 0s 1 normal forwards;
 }
-
 
 
 .App-header.active .App-header-title
@@ -245,19 +251,12 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding-right: 1em;
-    padding-left: 1em;
-    padding-top: 0.2em;
+    padding: 1em;
     margin: 0;
     list-style: none;
 }
 
-.App-footer-menu-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    font-size: calc(4px + 1vmin);
-    padding: 5em;
+
+.codeBlock{
+    text-align: left;
 }

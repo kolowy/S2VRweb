@@ -14,13 +14,6 @@
   background-color: var(--color-background);
 }
 
-.App-logo {
-  height: 13vmin;
-  pointer-events: none;
-  margin: 1%;
-  border-radius: 45%;
-}
-
 
 div
 {
@@ -83,7 +76,7 @@ h2
 button {
   background-color: var(--color-header);
   color: var(--color-text);
-  font-size: 1.5em;
+
   padding: 0.5em 1em;
   margin: 1em;
   border: none;
@@ -92,9 +85,7 @@ button {
   outline: none;
   transition:font-size 0.2s;
 }
-button:hover {
-  font-size: 1.6em;
-}
+
 
 /* ------------ page link ---------------*/
 a
