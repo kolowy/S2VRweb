@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/S2VRweb/static/css/main.69f8c5e2.css",
-    "main.js": "/S2VRweb/static/js/main.1db82e62.js",
+    "main.css": "/S2VRweb/static/css/main.63326a7b.css",
+    "main.js": "/S2VRweb/static/js/main.e34fe9fd.js",
     "react-syntax-highlighter/refractor-core-import.js": "/S2VRweb/static/js/react-syntax-highlighter/refractor-core-import.09e0fc7a.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_abap.6f6c663e.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_actionscript.dbc5fd76.chunk.js",
@@ -157,8 +157,8 @@
     "static/media/patateLogo.png": "/S2VRweb/static/media/patateLogo.501f3f9fca201f65b903.png",
     "static/media/logo.svg": "/S2VRweb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/S2VRweb/index.html",
-    "main.69f8c5e2.css.map": "/S2VRweb/static/css/main.69f8c5e2.css.map",
-    "main.1db82e62.js.map": "/S2VRweb/static/js/main.1db82e62.js.map",
+    "main.63326a7b.css.map": "/S2VRweb/static/css/main.63326a7b.css.map",
+    "main.e34fe9fd.js.map": "/S2VRweb/static/js/main.e34fe9fd.js.map",
     "refractor-core-import.09e0fc7a.chunk.js.map": "/S2VRweb/static/js/react-syntax-highlighter/refractor-core-import.09e0fc7a.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.6f6c663e.chunk.js.map": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_abap.6f6c663e.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.dbc5fd76.chunk.js.map": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_actionscript.dbc5fd76.chunk.js.map",
@@ -313,7 +313,7 @@
     "react-syntax-highlighter_languages_refractor_yaml.86f2fae9.chunk.js.map": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_yaml.86f2fae9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69f8c5e2.css",
-    "static/js/main.1db82e62.js"
+    "static/css/main.63326a7b.css",
+    "static/js/main.e34fe9fd.js"
   ]
 }
