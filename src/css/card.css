@@ -11,13 +11,17 @@
     text-align: left;
 }
 
+.card-body-title :hover
+{
+    animation: App-header-menu-hover 0.2s;
+}
+
 .card-body-img
 {
     object-fit: fill;
     object-position: center;
     height: 200px;
     display: flex;
-    justify-content: center;
     justify-content: center;
     border-radius: 1em;
     margin: 0.5em;
@@ -27,6 +31,7 @@
 {
     font-size: calc(3vmax);
 }
+
 
 .card-body-content-title
 {

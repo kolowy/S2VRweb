@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './css/index.css'
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom'
-import App from './js/App'
+import App from './js/pages/App'
 import Header from './js/component/header'
 import Footer from './js/component/footer';
 import Author from './js/pages/Author'

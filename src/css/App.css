@@ -38,10 +38,11 @@ div
   background-color: var(--color-background);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: var(--color-text);
+  /* hauteur minimal */
+  min-height: 47.5vh;
 }
 
 .App-footer
@@ -72,11 +73,11 @@ h2
 }
 
 /* ------------ Boutton test ---------------*/
-
 button {
   background-color: var(--color-header);
   color: var(--color-text);
 
+  font-size: calc(10px + 4vmin);
   padding: 0.5em 1em;
   margin: 1em;
   border: none;
@@ -86,6 +87,27 @@ button {
   transition:font-size 0.2s;
 }
 
+.button {
+  background-color: var(--color-header);
+  color: var(--color-text);
+/* increase the size  */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: calc(10px + 4vmin);
+  padding: 0.5em 1em;
+  margin: 1em;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  outline: none;
+  transition:font-size 0.2s;
+}
+
+button:hover {
+  font-size: calc(16px + 4vmin);
+}
+
 
 /* ------------ page link ---------------*/
 a
@@ -93,3 +115,24 @@ a
   color: var(--color-text);
   text-decoration: none;
 }
+
+
+
+/* ------------ content ---------------*/
+.App-body-content
+{
+  display: flex;
+  flex-direction: column;
+  align-items: inherit;
+  justify-content: center;
+}
+.App-body-content-one
+{
+  background-color: var(--color-background);
+}
+
+.App-body-content-svg
+{
+  align-items: inherit;
+}
+
