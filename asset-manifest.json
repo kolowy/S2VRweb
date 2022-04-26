@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/S2VRweb/static/css/main.d289dbef.css",
-    "main.js": "/S2VRweb/static/js/main.7942244a.js",
+    "main.js": "/S2VRweb/static/js/main.f75322d3.js",
     "react-syntax-highlighter/refractor-core-import.js": "/S2VRweb/static/js/react-syntax-highlighter/refractor-core-import.09e0fc7a.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_abap.6f6c663e.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_actionscript.dbc5fd76.chunk.js",
@@ -167,7 +167,7 @@
     "index.html": "/S2VRweb/index.html",
     "static/media/nord.svg": "/S2VRweb/static/media/nord.abaa8a9f8c040862f22b940ecc88442c.svg",
     "main.d289dbef.css.map": "/S2VRweb/static/css/main.d289dbef.css.map",
-    "main.7942244a.js.map": "/S2VRweb/static/js/main.7942244a.js.map",
+    "main.f75322d3.js.map": "/S2VRweb/static/js/main.f75322d3.js.map",
     "refractor-core-import.09e0fc7a.chunk.js.map": "/S2VRweb/static/js/react-syntax-highlighter/refractor-core-import.09e0fc7a.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.6f6c663e.chunk.js.map": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_abap.6f6c663e.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.dbc5fd76.chunk.js.map": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_actionscript.dbc5fd76.chunk.js.map",
@@ -323,6 +323,6 @@
   },
   "entrypoints": [
     "static/css/main.d289dbef.css",
-    "static/js/main.7942244a.js"
+    "static/js/main.f75322d3.js"
   ]
 }
