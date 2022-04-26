@@ -22,7 +22,7 @@ class Footer extends Component {
                             < CodeBlock
                                 language="c" 
                                 text={`public static void Footer () {
-    WeSite site = new WebSite();
+    WebSite site = new WebSite();
     site.addAuthor("Auguste Charpentier");
     site.addAuthor("David Goncalves");
     site.addAuthor("Julie Fiadino");
