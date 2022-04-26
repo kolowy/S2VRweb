@@ -8,9 +8,11 @@ import Footer from './js/component/footer';
 import Author from './js/pages/Author'
 import Credit from './js/pages/credit';
 import NoFound from './js/pages/NoFound';
+import ScrollToTop from './js/component/scrollToTop';
 
 const routing = (
   <Router>
+    <ScrollToTop />
     <div className="App">
       <Header/>
       <Routes>
