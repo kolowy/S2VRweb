@@ -4,6 +4,14 @@
     color: var(--color-text);
     padding: var(--padding-small);
     display: flex;
+    justify-content: center;
+}
+.App-credits-by2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .App-credits-name
@@ -18,6 +26,7 @@
 .App-credit-logo {
     height: 32vmin;
     margin: 1%;
+    size: 40%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,11 +35,34 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1600px) {
+    .App-credits {
+        flex-direction: column;
+    }
+    .App-credits-by2 {
+        display: flex;
+        flex-direction: row;
+    }
+    .App-credits-name {
+        padding: 1%;   
+    }
+}
+@supports (display: grid) {
+    .App-credits {
+        max-width: none;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .App-credits {
         /* les mettre en colone */
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    }
+    .App-credits-by2 {
+        display: flex;
+        flex-direction: column;
     }
 }
