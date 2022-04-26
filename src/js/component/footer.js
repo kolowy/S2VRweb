@@ -22,12 +22,12 @@ class Footer extends Component {
                             < CodeBlock
                                 language="c" 
                                 text={`public static void Footer () {
-    Author author = new Author();
-    author.setName("Auguste Charpentier");
-    author.serName("David Goncalves");
-    author.setName("Julie Fiadino");
-    author.setName("Paul Dufour");
-    author.setCopyright("© 2022");
+    WeSite site = new WebSite();
+    site.addAuthor("Auguste Charpentier");
+    site.addAuthor("David Goncalves");
+    site.addAuthor("Julie Fiadino");
+    site.addAuthor("Paul Dufour");
+    site.setCopyright("© 2022");
 }`}
                                 theme={nord}
                                 codeBlock
