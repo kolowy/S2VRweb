@@ -5,6 +5,7 @@ import MainImage from '../../images/Battle_Title.jpg';
 import SecImage from '../../images/patate.png';
 import Specification from '../../images/Projet_S2.pdf';
 import FirstPresentation from '../../images/Projet_S2.pdf';
+import SecondPresentation from '../../images/Second_presentation.pdf';
 import { Link } from 'react-router-dom';
 
 
@@ -47,9 +48,6 @@ class App extends React.Component {
             </div>
             <div className="part-body-subtitle">
               Both players have to communicate together to survive through the endless waves.
-              Since the last specifications, the game story went through some changes. We are now an
-              archerer in the Mushroom Kingdom, in war with the Potato County.
-              We must prevent the potatoes from stealing all of our resources
             </div>
           </div>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -57,7 +55,7 @@ class App extends React.Component {
           </svg>
           <div className="App-body-content-three">
             <div className="part-body-title">
-              Presentation :
+              Project :
             </div>
             <div className="part-body-button">
               <button>
@@ -65,6 +63,9 @@ class App extends React.Component {
               </button>
               <button>
                 <a href={FirstPresentation} rel="noopener"> First presentation </a>
+              </button>
+              <button>
+                <a href={SecondPresentation} rel="noopener"> Second presentation </a>
               </button>
             </div>
           </div>
