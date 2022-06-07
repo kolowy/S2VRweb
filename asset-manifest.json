@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/S2VRweb/static/css/main.d9c9693f.css",
-    "main.js": "/S2VRweb/static/js/main.f7569125.js",
+    "main.js": "/S2VRweb/static/js/main.8842c6b5.js",
     "react-syntax-highlighter/refractor-core-import.js": "/S2VRweb/static/js/react-syntax-highlighter/refractor-core-import.09e0fc7a.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_abap.6f6c663e.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_actionscript.dbc5fd76.chunk.js",
@@ -160,6 +160,7 @@
     "static/media/info3.png": "/S2VRweb/static/media/info3.305629eeef66759791a8.png",
     "static/media/info2.png": "/S2VRweb/static/media/info2.12b6c293ab6983a9d213.png",
     "static/media/info1.png": "/S2VRweb/static/media/info1.5f73259966c3a894d4fb.png",
+    "static/media/info4.png": "/S2VRweb/static/media/info4.26029d2241d56bc790df.png",
     "static/media/patate.png": "/S2VRweb/static/media/patate.ba9082536966e1cc84c1.png",
     "static/media/patateLogo.png": "/S2VRweb/static/media/patateLogo.501f3f9fca201f65b903.png",
     "static/media/blender.png": "/S2VRweb/static/media/blender.c07f5468caff2725763e.png",
@@ -171,7 +172,7 @@
     "index.html": "/S2VRweb/index.html",
     "static/media/nord.svg": "/S2VRweb/static/media/nord.abaa8a9f8c040862f22b940ecc88442c.svg",
     "main.d9c9693f.css.map": "/S2VRweb/static/css/main.d9c9693f.css.map",
-    "main.f7569125.js.map": "/S2VRweb/static/js/main.f7569125.js.map",
+    "main.8842c6b5.js.map": "/S2VRweb/static/js/main.8842c6b5.js.map",
     "refractor-core-import.09e0fc7a.chunk.js.map": "/S2VRweb/static/js/react-syntax-highlighter/refractor-core-import.09e0fc7a.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.6f6c663e.chunk.js.map": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_abap.6f6c663e.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.dbc5fd76.chunk.js.map": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_actionscript.dbc5fd76.chunk.js.map",
@@ -327,6 +328,6 @@
   },
   "entrypoints": [
     "static/css/main.d9c9693f.css",
-    "static/js/main.f7569125.js"
+    "static/js/main.8842c6b5.js"
   ]
 }
