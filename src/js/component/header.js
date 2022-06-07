@@ -45,17 +45,20 @@ class Header extends React.Component {
                 <img src={logo} className="App-logo" alt="logo" />
                 <div className="App-header-content">
                     <p className='App-header-title'>
-                        <Link to="/" onClick={this.closeMenu} >BattleFields: Return of the Potatoes</Link>
+                        <Link to="/S2VRweb/" onClick={this.closeMenu} >BattleFields: Return of the Potatoes</Link>
                     </p>
                     <ul className='App-header-menu'>
                         <li className='App-header-list'>
-                            <Link to="/" onClick={this.closeMenu}><i class="fas fa-home"></i> Home</Link>
+                            <Link to="/S2VRweb/" onClick={this.closeMenu}><i class="fas fa-home"></i> Home</Link>
                         </li>
                         <li className='App-header-list'>
-                            <Link to="/Author" onClick={this.closeMenu}><i class="fas fa-user"></i> About Us</Link>
+                            <Link to="/S2VRweb/info" onClick={this.closeMenu}><i class="fas fa-info-circle"></i> info</Link>
                         </li>
                         <li className='App-header-list'>
-                            <Link to="/credit" onClick={this.closeMenu}><i class="fas fa-address-book"></i> Credit</Link>
+                            <Link to="/S2VRweb/Author" onClick={this.closeMenu}><i class="fas fa-user"></i> About Us</Link>
+                        </li>
+                        <li className='App-header-list'>
+                            <Link to="/S2VRweb/credit" onClick={this.closeMenu}><i class="fas fa-address-book"></i> Credit</Link>
                         </li>
                     </ul>
                     <button onClick={this.handleClick} className="App-header-small" type="button">

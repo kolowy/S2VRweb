@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './css/index.css'
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom'
-import App from './js/pages/App'
+import { App, Info } from './js/pages/App'
 import Header from './js/component/header'
 import Footer from './js/component/footer';
 import Author from './js/pages/Author'
@@ -17,10 +17,11 @@ const routing = (
       <Header/>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/S2VRweb/info" element={<Info />} />
         <Route path="/S2VRweb" element={<App />} />
-        <Route path='/Author' element={<Author />} />
-        <Route path="/Credit" element={<Credit />} />
-        <Route path="*" element={<NoFound />} />
+        <Route path='/S2VRweb/Author' element={<Author />} />
+        <Route path="/S2VRweb/Credit" element={<Credit />} />
+        <Route path="/S2VRweb/*" element={<NoFound />} />
       </Routes>
       <Footer className='App-footer' />
     </div>

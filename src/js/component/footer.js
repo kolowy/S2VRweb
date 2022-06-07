@@ -36,8 +36,9 @@ class Footer extends Component {
                     </div>
                             <div className='App-footer-menu'>
                                     <Link to="/"><i class="fas fa-home"></i> Home</Link>
-                                    <Link to="/Author"><i class="fas fa-user"></i> About Us</Link>
-                                    <Link to="/credit"><i class="fas fa-address-book"></i> Contacts</Link>
+                                    <Link to="/S2VRweb/info"><i class="fas fa-info-circle"></i> Info</Link>
+                                    <Link to="/S2VRweb/Author"><i class="fas fa-user"></i> About Us</Link>
+                                    <Link to="/S2VRweb/credit"><i class="fas fa-address-book"></i> Contacts</Link>
                             
                     </div>
                 </div>

@@ -7,10 +7,12 @@ class NoFound extends Component {
     render() {
         return (
             <div className="App-body">
-                <img src={Happy_duck} alt='404'/>
-                <Button>
-                    <a href='/'>Home</a>
-                </Button>
+                <div className="nofound">
+                    <img src={Happy_duck} alt='404'/>
+                    <Button>
+                        <a href='/'>Home</a>
+                    </Button>
+                </div>
             </div>
         );
     }

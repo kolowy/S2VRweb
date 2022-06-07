@@ -136,3 +136,9 @@ a
   align-items: inherit;
 }
 
+
+.nofound
+{
+  max-width: 50%;
+  margin: auto;
+}
