@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/S2VRweb/static/css/main.d9c9693f.css",
-    "main.js": "/S2VRweb/static/js/main.8842c6b5.js",
+    "main.js": "/S2VRweb/static/js/main.8c96d140.js",
     "react-syntax-highlighter/refractor-core-import.js": "/S2VRweb/static/js/react-syntax-highlighter/refractor-core-import.09e0fc7a.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_abap.6f6c663e.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_actionscript.dbc5fd76.chunk.js",
@@ -154,8 +154,11 @@
     "react-syntax-highlighter_languages_refractor_xojo.js": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_xojo.b92f077e.chunk.js",
     "react-syntax-highlighter_languages_refractor_xquery.js": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_xquery.439a2df9.chunk.js",
     "react-syntax-highlighter_languages_refractor_yaml.js": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_yaml.86f2fae9.chunk.js",
+    "static/media/Battle_Fields_Return_of_the_Potato.exe": "/S2VRweb/static/media/Battle_Fields_Return_of_the_Potato.56db318b7828a2cd4def.exe",
+    "static/media/Final_report.pdf": "/S2VRweb/static/media/Final_report.f783f97b8593c754244d.pdf",
     "static/media/Second_presentation.pdf": "/S2VRweb/static/media/Second_presentation.d1972a475b21eba6b958.pdf",
     "static/media/Battle_Title.jpg": "/S2VRweb/static/media/Battle_Title.3b2448befcecff0e7fbf.jpg",
+    "static/media/info0.png": "/S2VRweb/static/media/info0.afc43c3de357767092c7.png",
     "static/media/Projet_S2.pdf": "/S2VRweb/static/media/Projet_S2.cf8c9b88b18d336a3ed1.pdf",
     "static/media/info3.png": "/S2VRweb/static/media/info3.305629eeef66759791a8.png",
     "static/media/info2.png": "/S2VRweb/static/media/info2.12b6c293ab6983a9d213.png",
@@ -172,7 +175,7 @@
     "index.html": "/S2VRweb/index.html",
     "static/media/nord.svg": "/S2VRweb/static/media/nord.abaa8a9f8c040862f22b940ecc88442c.svg",
     "main.d9c9693f.css.map": "/S2VRweb/static/css/main.d9c9693f.css.map",
-    "main.8842c6b5.js.map": "/S2VRweb/static/js/main.8842c6b5.js.map",
+    "main.8c96d140.js.map": "/S2VRweb/static/js/main.8c96d140.js.map",
     "refractor-core-import.09e0fc7a.chunk.js.map": "/S2VRweb/static/js/react-syntax-highlighter/refractor-core-import.09e0fc7a.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.6f6c663e.chunk.js.map": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_abap.6f6c663e.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.dbc5fd76.chunk.js.map": "/S2VRweb/static/js/react-syntax-highlighter_languages_refractor_actionscript.dbc5fd76.chunk.js.map",
@@ -328,6 +331,6 @@
   },
   "entrypoints": [
     "static/css/main.d9c9693f.css",
-    "static/js/main.8842c6b5.js"
+    "static/js/main.8c96d140.js"
   ]
 }
